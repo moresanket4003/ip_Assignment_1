@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation Portal</title>
+</head>
+<body bgcolor="lightgoldenrodyellow">
+    <header style="text-align: center;" bgcolor="lightgreen">
+        <img src="https://img.freepik.com/premium-vector/italian-food-restaurant-logo_18099-2526.jpg?w=740" alt="Restaurant Logo" width="300" height="300" style="display: block; margin: 0 auto;">
+        <h1><font face="Comic Sans MS">Restaurant Reservation Portal</font></h1>
+        
+    </header>
+    <nav style="text-align: center;" bgcolor="lightcoral">
+        <a href="#home"><font face="Comic Sans MS">Home</font></a>
+        <a href="#menu"><font face="Comic Sans MS">Menu</font></a>
+        <a href="#reservation"><font face="Comic Sans MS">Reservation</font></a>
+        <a href="#contact"><font face="Comic Sans MS">Contact Us</font></a>
+    </nav>
+    <div class="container" bgcolor="lightyellow">
+        <aside class="sidebar" bgcolor="lightblue">
+            <h2><font face="Comic Sans MS">Special Offers</font></h2>
+            <details>
+                <summary><font face="Comic Sans MS">Happy Hour</font></summary>
+                <p><font face="Comic Sans MS">50% off on all drinks from 5 PM to 7 PM!</font></p>
+            </details>
+            <details>
+                <summary><font face="Comic Sans MS">Weekend Special</font></summary>
+                <p><font face="Comic Sans MS">Buy one get one free on all desserts.</font></p>
+            </details>
+        </aside>
+        <main class="main-content" bgcolor="lightpink">
+            <section id="home">
+                <h2><font face="Comic Sans MS">Home</font></h2>
+                <p><font face="Comic Sans MS">Welcome to Italian Food, where the essence of Italy comes alive in every dish. Nestled in the heart of Thane, our restaurant offers a delightful escape to the enchanting landscapes and rich culinary traditions of Italy. From our handmade pasta to our wood-fired pizzas, each meal is crafted with passion, using the freshest ingredients and time-honored recipes passed down through generations. Whether you're enjoying a romantic dinner, a family gathering, or a special celebration, La Dolce Vita promises an unforgettable dining experience filled with warmth, flavor, and Italian hospitality. Buon Appetito!</font></p>
+            </section>
+            <section id="menu">
+                <h2><font face="Comic Sans MS">Our Menu</font></h2>
+                <figure>
+                    <img src="menu_italian.jpg" alt="menu_italian" width="300" height="400" style="display: block; margin: 0 auto;">
+                    <figcaption style="text-align: center;"><font face="Comic Sans MS">Sample Dish - Rs.450</font></figcaption>
+                </figure>
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;" bgcolor="lightgreen">
+                    <caption><font face="Comic Sans MS">Our Menu</font></caption>
+                    <thead>
+                        <tr>
+                            <th><font face="Comic Sans MS">Dish</font></th>
+                            <th><font face="Comic Sans MS">Description</font></th>
+                            <th><font face="Comic Sans MS">Price</font></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><font face="Comic Sans MS">Spaghetti Carbonara</font></td>
+                            <td><font face="Comic Sans MS">Creamy pasta with pancetta and parmesan</font></td>
+                            <td><font face="Comic Sans MS">Rs.410</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Margherita Pizza</font></td>
+                            <td><font face="Comic Sans MS">Classic pizza with fresh mozzarella and basil</font></td>
+                            <td><font face="Comic Sans MS">Rs.550</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Caesar Salad</font></td>
+                            <td><font face="Comic Sans MS">Fresh romaine lettuce with Caesar dressing</font></td>
+                            <td><font face="Comic Sans MS">Rs.399</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Lasagna</font></td>
+                            <td><font face="Comic Sans MS">Layers of pasta with meat sauce and cheese</font></td>
+                            <td><font face="Comic Sans MS">Rs.600</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Bruschetta</font></td>
+                            <td><font face="Comic Sans MS">Grilled bread topped with tomatoes and basil</font></td>
+                            <td><font face="Comic Sans MS">Rs.250</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Tiramisu</font></td>
+                            <td><font face="Comic Sans MS">Classic Italian dessert with coffee and mascarpone cheese</font></td>
+                            <td><font face="Comic Sans MS">Rs.350</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Minestrone Soup</font></td>
+                            <td><font face="Comic Sans MS">Hearty vegetable soup with pasta and beans</font></td>
+                            <td><font face="Comic Sans MS">Rs.299</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Fettuccine Alfredo</font></td>
+                            <td><font face="Comic Sans MS">Rich and creamy pasta with parmesan cheese</font></td>
+                            <td><font face="Comic Sans MS">Rs.480</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Risotto</font></td>
+                            <td><font face="Comic Sans MS">Creamy rice dish with mushrooms and parmesan</font></td>
+                            <td><font face="Comic Sans MS">Rs.500</font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Comic Sans MS">Caprese Salad</font></td>
+                            <td><font face="Comic Sans MS">Fresh tomatoes, mozzarella, and basil with olive oil</font></td>
+                            <td><font face="Comic Sans MS">Rs.400</font></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="reservation">
+                <h2><font face="Comic Sans MS">Make a Reservation</font></h2>
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend><font face="Comic Sans MS">Personal Information</font></legend>
+                        <label for="name"><font face="Comic Sans MS">Name:</font></label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email"><font face="Comic Sans MS">Email:</font></label>
+                        <input type="email" id="email" name="email" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend><font face="Comic Sans MS">Reservation Details</font></legend>
+                        <label for="date"><font face="Comic Sans MS">Date:</font></label>
+                        <input type="date" id="date" name="date" required>
+                        <label for="time"><font face="Comic Sans MS">Time:</font></label>
+                        <input type="time" id="time" name="time" required>
+                        <label for="party-size"><font face="Comic Sans MS">Party Size:</font></label>
+                        <input type="number" id="party-size" name="party-size" min="1" required>
+                        <label for="table"><font face="Comic Sans MS">Preferred Table:</font></label>
+                        <select id="table" name="table">
+                            <option value="window"><font face="Comic Sans MS">Window</font></option>
+                            <option value="booth"><font face="Comic Sans MS">Booth</font></option>
+                            <option value="outdoor"><font face="Comic Sans MS">Outdoor</font></option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend><font face="Comic Sans MS">Special Requests</font></legend>
+                        <label for="requests"><font face="Comic Sans MS">Requests:</font></label>
+                        <textarea id="requests" name="requests" rows="4"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Reserve">
+                </form>
+            </section>
+            <section id="video">
+                <h2><font face="Comic Sans MS">Promotional Video</font></h2>
+                <video width="600" controls style="display: block; margin: 0 auto;">
+                    <source src="italian_recording1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <section id="contact">
+                <h2><font face="Comic Sans MS">Contact Us</font></h2>
+                <address>
+                    <p><font face="Comic Sans MS">1234 Woodfort Lane, Thane</font></p>
+                    <p>Email: <a href="mailto:info@italyrestaurant.com">info@italyrestaurant.com</a></p>
+                    <p><font face="Comic Sans MS">Phone: (123) 456-7890</font></p>
+                </address>
+                <h2><font face="Comic Sans MS">Follow Us</font></h2>
+                <p style="text-align: center;">
+                    <a href="https://www.facebook.com" target="_blank"><font face="Comic Sans MS">Facebook</font></a> |
+                    <a href="https://www.twitter.com" target="_blank"><font face="Comic Sans MS">Twitter</font></a> |
+                    <a href="https://www.instagram.com" target="_blank"><font face="Comic Sans MS">Instagram</font></a>
+                </p>
+            </section>
+        </main>
+    </div>
+    <footer style="text-align: center;" bgcolor="lightgrey">
+        <p><font face="Comic Sans MS">&copy; 2024 Italian Food. All rights reserved.</font></p>
+    </footer>
+</body>
+</html>
